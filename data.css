@@ -1,0 +1,53 @@
+body {
+	background-color: #e3e3e3;
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+h5 {
+	text-align: center;
+}
+
+td {
+	font-size: auto;
+}
+
+div.menu {
+    background: #c7c7c7;
+    width: auto;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 10;
+    padding: 2;
+    overflow: hidden;
+}
+
+li.menu {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+li.menu a.menu {
+    display: block;
+    color: black;
+    padding: 12px 14px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+
+#edit-button {
+    background: -webkit-linear-gradient(bottom, #bababa, #e6e6e6);
+    border-radius: 5px;
+    font-family: sans-serif;
+    height: 25px;
+    transition: 0.25s;
+    width: 80px;
+}
